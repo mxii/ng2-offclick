@@ -1,6 +1,6 @@
 {
   "name": "ng2-offclick",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Offclick directive for Angular2!",
   "main": "ng2-offclick",
   "scripts": {
@@ -38,5 +38,8 @@
     "@types/jasmine": "2.2.33",
     "@types/node": "6.0.38"
   },
-  "typings": "./ng2-offclick.d.ts"
+  "typings": [
+       "./ng2-offclick.d.ts",
+       "./src/offclick.directive.d.ts"
+  ]
 }
