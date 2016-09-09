@@ -1,0 +1,42 @@
+{
+  "name": "ng2-offclick",
+  "version": "0.0.1",
+  "description": "An Offclick directive for Angular2!",
+  "main": "ng2-offclick",
+  "scripts": {
+	"prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxii/ng2-offclick.git"
+  },
+  "keywords": [
+    "ng2",
+    "angular2"
+  ],
+  "author": "Sascha 'mxii' E.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxii/ng2-offclick/issues"
+  },
+  "homepage": "https://github.com/mxii/ng2-offclick#readme",
+  "devDependencies": {
+	"@angular/common": "2.0.0-rc.5",
+	"@angular/compiler": "2.0.0-rc.5",
+	"@angular/core": "2.0.0-rc.5",
+	"@angular/platform-browser": "2.0.0-rc.5",
+	"@angular/platform-browser-dynamic": "2.0.0-rc.5",
+	"systemjs": "0.19.36",
+	"core-js": "^2.4.0",
+	"reflect-metadata": "^0.1.3",
+	"rxjs": "5.0.0-beta.6",
+	"zone.js": "^0.6.12",
+    "typescript": "2.0.0",
+	
+    "@types/hammerjs": "2.0.32",
+    "@types/jasmine": "2.2.33",
+    "@types/node": "6.0.38"
+  },
+  "typings": "./ng2-offclick.d.ts"
+}
