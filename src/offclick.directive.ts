@@ -63,7 +63,7 @@ export class OffClickService {
    selector: '[offClick]',
    host: {
       '(mousedown)': 'onClick($event)',
-      '(touchstart)': 'onClick($event)',
+      '(touchstart)': 'onClick($event)'
    }
 })
 export class OffClickDirective implements OnInit {
